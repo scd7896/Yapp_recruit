@@ -133,6 +133,17 @@ eval("function _inheritsLoose(subClass, superClass) {\n  subClass.prototype = Ob
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@keyframes loading-bar {}.loading-wrapper {\\n  width: 100%;\\n  height: 100%;\\n  background-color: rgba(0, 0, 0, 0.4);\\n  position: fixed;\\n  top: 0;\\n  left: 0;\\n  display: flex;\\n  justify-content: center;\\n  overflow-y: scroll; }\\n\\n.loading-bar {\\n  margin-top: 20%;\\n  width: 400px;\\n  height: 40px;\\n  background-color: white;\\n  border-radius: 30px; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/admin/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/index/Index.scss":
 /*!*****************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/index/Index.scss ***!
@@ -140,7 +151,7 @@ eval("function _inheritsLoose(subClass, superClass) {\n  subClass.prototype = Ob
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: 0; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: red; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -500,6 +511,18 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/component/atomic/Test/index.tsx":
+/*!*********************************************!*\
+  !*** ./src/component/atomic/Test/index.tsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Test = function (props) {\n    console.log('아토믹 컴포넌트', props);\n    return (React.createElement(\"div\", null, \"Test \\uCEF4\\uD3EC\\uB10C\\uD2B8\\uC784 \\uD55C\\uBC88\\uBCF4\\uC148\"));\n};\n// export default withRouter(Test)\nexports.default = Test;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Test/index.tsx?");
+
+/***/ }),
+
 /***/ "./src/index.tsx":
 /*!***********************!*\
   !*** ./src/index.tsx ***!
@@ -520,7 +543,30 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Re
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar Index_1 = __webpack_require__(/*! ./index/Index */ \"./src/pages/index/Index.tsx\");\nvar App = function () {\n    return (React.createElement(react_router_dom_1.BrowserRouter, null,\n        React.createElement(react_router_dom_1.Route, { exact: true, path: \"/\", component: Index_1.default })));\n};\nexports.default = App;\n\n\n//# sourceURL=webpack:///./src/pages/App.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar index_1 = __webpack_require__(/*! ./index */ \"./src/pages/index/index.tsx\");\nvar admin_1 = __webpack_require__(/*! ./admin */ \"./src/pages/admin/index.tsx\");\nvar App = function () {\n    return (React.createElement(react_router_dom_1.BrowserRouter, null,\n        React.createElement(react_router_dom_1.Route, { exact: true, path: \"/recruit\", component: index_1.default }),\n        React.createElement(react_router_dom_1.Route, { path: \"/recruit/admin\", component: admin_1.default })));\n};\nexports.default = App;\n\n\n//# sourceURL=webpack:///./src/pages/App.tsx?");
+
+/***/ }),
+
+/***/ "./src/pages/admin/index.scss":
+/*!************************************!*\
+  !*** ./src/pages/admin/index.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/pages/admin/index.scss?");
+
+/***/ }),
+
+/***/ "./src/pages/admin/index.tsx":
+/*!***********************************!*\
+  !*** ./src/pages/admin/index.tsx ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Test_1 = __webpack_require__(/*! ../../component/atomic/Test */ \"./src/component/atomic/Test/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/pages/admin/index.scss\");\nvar Admin = function (props) {\n    var _a = react_1.useState(true), loading = _a[0], setLoading = _a[1];\n    console.log('페이지컴포넌트', props);\n    react_1.useEffect(function () {\n        setTimeout(function () {\n            setLoading(false);\n        }, 2000);\n    }, []);\n    return (React.createElement(\"div\", null, !loading ? (React.createElement(Test_1.default, null)) : (React.createElement(\"div\", { className: \"loading-wrapper\" },\n        React.createElement(\"div\", { className: \"loading-bar\" })))));\n};\nexports.default = Admin;\n\n\n//# sourceURL=webpack:///./src/pages/admin/index.tsx?");
 
 /***/ }),
 
@@ -535,15 +581,15 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 
 /***/ }),
 
-/***/ "./src/pages/index/Index.tsx":
+/***/ "./src/pages/index/index.tsx":
 /*!***********************************!*\
-  !*** ./src/pages/index/Index.tsx ***!
+  !*** ./src/pages/index/index.tsx ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    return (React.createElement(\"div\", { className: \"index-container\" }, \"hello Inex\"));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    return (React.createElement(\"div\", { className: \"index-container\" }, \"hello Inex\"));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
 
 /***/ })
 
