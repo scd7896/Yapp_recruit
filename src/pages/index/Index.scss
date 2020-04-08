@@ -13,14 +13,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     min-height: 100vh;
     
-    @media (min-width: 1280px) {
-        // 데스크탑
-        width: 1190px;
-        
-    }
-    @media (max-width: 1279px) and (min-width: 800px) {
+    
+    @media (min-width: 800px) {
         // 노트북
         width: 790px;
     }

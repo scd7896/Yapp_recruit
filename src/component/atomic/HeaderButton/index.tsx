@@ -1,13 +1,17 @@
-import * as React from 'react'
+import * as React from "react";
+import "./index.scss";
 type PropsType = {
-    generation: number
-}
-const HeaderButton = ({ generation }: PropsType) => {
+    generation: number;
+    isRecruit: boolean;
+};
+const HeaderButton = ({ generation, isRecruit }: PropsType) => {
     return (
-        <div>
-            <span>현재 {generation}기 모집 중</span>
+        <div className="header-button-contents">
+            <span>
+                현재 {generation}기 {isRecruit ? "모집 중" : "활동 중"}
+            </span>
         </div>
-    )
-}
+    );
+};
 
 export default HeaderButton;

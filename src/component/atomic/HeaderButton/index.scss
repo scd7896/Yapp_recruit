@@ -1,0 +1,29 @@
+.header-button-contents {
+	position: relative;
+    background: #88b7d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.6rem;
+    border-radius: 20px;
+    color: white;
+}
+.header-button-contents:after, .header-button-contents:before {
+	right: 91%;
+	top: 173.906257%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 4px;
+	position: absolute;
+	pointer-events: none;
+}
+
+
+.header-button-contents:before {
+    transform: rotate(313deg);
+	border-right-color: #88b7d5;
+	border-width: 12px;
+	margin-top: -40px;
+}
