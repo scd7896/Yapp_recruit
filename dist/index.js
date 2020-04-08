@@ -331,7 +331,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: red; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: #dddddd;\\n  min-height: 100vh;\\n  display: flex;\\n  justify-content: center; }\\n  @media (prefers-color-scheme: dark) {\\n    .index-container {\\n      background-color: black; } }\\n\\n.contents-container {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  min-height: 100vh; }\\n  @media (min-width: 1280px) {\\n    .contents-container {\\n      width: 1190px; } }\\n  @media (max-width: 1279px) and (min-width: 800px) {\\n    .contents-container {\\n      width: 790px; } }\\n  @media (max-width: 799px) {\\n    .contents-container {\\n      width: 90%; } }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -737,6 +737,18 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/component/atomic/HeaderButton/index.tsx":
+/*!*****************************************************!*\
+  !*** ./src/component/atomic/HeaderButton/index.tsx ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar HeaderButton = function (_a) {\n    var generation = _a.generation;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"span\", null,\n            \"\\uD604\\uC7AC \",\n            generation,\n            \"\\uAE30 \\uBAA8\\uC9D1 \\uC911\")));\n};\nexports.default = HeaderButton;\n\n\n//# sourceURL=webpack:///./src/component/atomic/HeaderButton/index.tsx?");
+
+/***/ }),
+
 /***/ "./src/component/atomic/Test/index.tsx":
 /*!*********************************************!*\
   !*** ./src/component/atomic/Test/index.tsx ***!
@@ -793,7 +805,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar fi
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar firebase_1 = __webpack_require__(/*! ../model/firebase */ \"./src/model/firebase.ts\");\nvar index_1 = __webpack_require__(/*! ./index */ \"./src/pages/index/index.tsx\");\nvar admin_1 = __webpack_require__(/*! ./admin */ \"./src/pages/admin/index.tsx\");\nvar App = function () {\n    var _a = react_1.useState(''), recruitData = _a[0], setRecruitData = _a[1];\n    firebase_1.fire();\n    var onUpdate = function () {\n        firebase_1.updatedURL()\n            .then(function (res) {\n            console.log(res);\n        })\n            .catch(function (err) {\n            console.error(err);\n        });\n    };\n    react_1.useEffect(function () {\n        firebase_1.getFireDB()\n            .then(function (res) {\n            setRecruitData(res.val()['recruit-data']);\n        });\n    }, []);\n    return (React.createElement(react_router_dom_1.BrowserRouter, null,\n        React.createElement(react_router_dom_1.Route, { exact: true, path: \"/recruit\", component: index_1.default }),\n        React.createElement(react_router_dom_1.Route, { path: \"/recruit/admin\", component: admin_1.default }),\n        React.createElement(\"button\", { onClick: onUpdate }, \"\\uC5C5\\uB370\\uC774\\uD2B8\\uD558\\uAE30\")));\n};\nexports.default = App;\n\n\n//# sourceURL=webpack:///./src/pages/App.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar firebase_1 = __webpack_require__(/*! ../model/firebase */ \"./src/model/firebase.ts\");\nvar index_1 = __webpack_require__(/*! ./index */ \"./src/pages/index/index.tsx\");\nvar admin_1 = __webpack_require__(/*! ./admin */ \"./src/pages/admin/index.tsx\");\nvar App = function () {\n    firebase_1.fire();\n    return (React.createElement(react_router_dom_1.BrowserRouter, null,\n        React.createElement(react_router_dom_1.Route, { exact: true, path: \"/recruit\", component: index_1.default }),\n        React.createElement(react_router_dom_1.Route, { path: \"/recruit/admin\", component: admin_1.default })));\n};\nexports.default = App;\n\n\n//# sourceURL=webpack:///./src/pages/App.tsx?");
 
 /***/ }),
 
@@ -839,7 +851,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    return (React.createElement(\"div\", { className: \"index-container\" }, \"hello Inex\"));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar HeaderButton_1 = __webpack_require__(/*! ../../component/atomic/HeaderButton */ \"./src/component/atomic/HeaderButton/index.tsx\");\nvar firebase_1 = __webpack_require__(/*! ../../model/firebase */ \"./src/model/firebase.ts\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    var _a = react_1.useState(''), recruitData = _a[0], setRecruitData = _a[1];\n    react_1.useEffect(function () {\n        firebase_1.getFireDB()\n            .then(function (res) {\n            setRecruitData(res.val()['recruit-data']);\n        });\n    }, []);\n    return (React.createElement(\"div\", { className: \"index-container\" },\n        React.createElement(\"div\", { className: \"contents-container\" },\n            React.createElement(\"h1\", null, \"Recruit\"),\n            React.createElement(\"div\", null, recruitData && React.createElement(\"span\", null,\n                recruitData,\n                \"\\uC77C\\uBD80\\uD130 \\uC2E0\\uC785\\uAE30\\uC218\\uB97C \\uBAA8\\uC9D1\\uD569\\uB2C8\\uB2E4\")),\n            React.createElement(\"div\", null,\n                React.createElement(HeaderButton_1.default, { generation: 17 })))));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
 
 /***/ })
 
