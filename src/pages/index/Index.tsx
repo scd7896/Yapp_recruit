@@ -1,16 +1,17 @@
-import * as React from 'react';
-import { useState, useEffect } from 'react';
-import HeaderButton from '../../component/atomic/HeaderButton'
-import { getFireDB } from '../../model/firebase';
-import './Index.scss';
+import * as React from "react";
+import { useState, useEffect } from "react";
+import HeaderButton from "../../component/atomic/HeaderButton";
+import Card from "../../component/atomic/Card";
+import { getFireDB } from "../../model/firebase";
+import "./Index.scss";
 type recruitDataTypes = {
-    startDay: string,
-    generation: number,
-    isRecruit: boolean,
-    lastDay: string,
-    notionURL: string
-    url: string
-}
+    startDay: string;
+    generation: number;
+    isRecruit: boolean;
+    lastDay: string;
+    notionURL: string;
+    url: string;
+};
 const Index = () => {
     const [recruitData, setRecruitData] = useState<recruitDataTypes>({
         startDay: "test",
@@ -27,16 +28,16 @@ const Index = () => {
     //             setRecruitData(res.val()['recruit-data'])
     //         })
     // },[])
-    return(
+    return (
         <div className="index-container">
             <div className="contents-container">
                 <div className="contents-header-container">
                     <h1>Recruit</h1>
+                    <div>{recruitData && <span>{recruitData.startDay}부터 신입기수를 모집합니다</span>}</div>
                     <div>
-                        { recruitData && <span>{ recruitData.startDay }부터 신입기수를 모집합니다</span> }
-                    </div>
-                    <div>
-                        { recruitData && <HeaderButton generation={ recruitData.generation } isRecruit={recruitData.isRecruit} />}
+                        {recruitData && (
+                            <HeaderButton generation={recruitData.generation} isRecruit={recruitData.isRecruit} />
+                        )}
                     </div>
                 </div>
                 <div className="contents-body-container">
@@ -45,12 +46,12 @@ const Index = () => {
                         <p>활동에 함께할 Yappian<span>을 모집합니다.</span></p>
                     </div>
                     <div className="contents-body-card-container">
-                        
+                        <Card />
                     </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Index;

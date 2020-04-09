@@ -1,0 +1,8 @@
+.card-container {
+    width: 300px;
+    height: 350px;
+    background-color: yellowgreen;
+    @media (prefers-color-scheme: dark) {
+        background-color: #333333;
+    }
+}
