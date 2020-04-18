@@ -324,6 +324,28 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Description/index.scss":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Description/index.scss ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".description-title {\\n  display: inline-block;\\n  position: relative;\\n  font-family: AppleSDGothicNeo;\\n  font-size: 32px;\\n  font-weight: bold;\\n  line-height: 1.22;\\n  letter-spacing: -0.8px;\\n  margin: 0px;\\n  padding: 0px;\\n  color: #000000; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Description/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Icon/index.scss":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Icon/index.scss ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".icon-box-container {\\n  width: 38px;\\n  height: 38px;\\n  border-radius: 20px; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Icon/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/RecruitButton/index.scss":
 /*!************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/RecruitButton/index.scss ***!
@@ -335,6 +357,17 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/SubDescription/index.scss":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/SubDescription/index.scss ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".subdescription-text {\\n  font-family: AppleSDGothicNeo;\\n  font-size: 14px;\\n  line-height: 1.93;\\n  letter-spacing: -0.28px;\\n  color: #000000; }\\n\\n.subdescription-link {\\n  font-family: AppleSDGothicNeo;\\n  font-size: 14px;\\n  font-weight: 600;\\n  line-height: 1.57;\\n  letter-spacing: -0.35px;\\n  color: #f87d03; }\\n  .subdescription-link a {\\n    text-decoration: none; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/SubDescription/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/template/RecuitTemplate/index.scss":
 /*!***************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/template/RecuitTemplate/index.scss ***!
@@ -342,7 +375,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".header-section {\\n  padding: 22px 23px; }\\n\\n.yapp-link {\\n  text-decoration: none;\\n  font-family: 'Avenir';\\n  font-size: 14px;\\n  line-height: 1.93;\\n  letter-spacing: -0.28px;\\n  color: #000000; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".header-section {\\n  padding: 22px 23px; }\\n\\n.yapp-link {\\n  text-decoration: none;\\n  font-family: 'Avenir';\\n  font-size: 14px;\\n  line-height: 1.93;\\n  letter-spacing: -0.28px;\\n  color: #000000; }\\n\\n.body-section {\\n  display: flex;\\n  justify-content: center; }\\n\\n.body-contents-container {\\n  width: 896px; }\\n\\n.recruit-title {\\n  display: inline-block;\\n  font-family: Avenir;\\n  font-size: 82px;\\n  font-weight: 900;\\n  letter-spacing: -4.1px;\\n  color: #000000;\\n  margin-bottom: 24px;\\n  border-bottom: 4px solid #000000; }\\n\\n.title-R {\\n  color: #f89203;\\n  border-bottom: 4px solid #f89203; }\\n\\n.recruit-title-container {\\n  position: relative;\\n  margin-bottom: 100px; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -793,6 +826,52 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Re
 
 /***/ }),
 
+/***/ "./src/component/atomic/Description/index.scss":
+/*!*****************************************************!*\
+  !*** ./src/component/atomic/Description/index.scss ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Description/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/Description/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Description/index.tsx":
+/*!****************************************************!*\
+  !*** ./src/component/atomic/Description/index.tsx ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Icon_1 = __webpack_require__(/*! ../Icon */ \"./src/component/atomic/Icon/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/Description/index.scss\");\nvar Description = function (_a) {\n    var isRecruit = _a.isRecruit, startDay = _a.startDay;\n    var text = isRecruit ? startDay + \"\\uBD80\\uD130 \\uC2E0\\uC785\\uAE30\\uC218\\uB97C \\uBAA8\\uC9D1\\uD569\\uB2C8\\uB2E4\" : \"지금은 모집기간이 아닙니다\";\n    return (React.createElement(\"p\", { className: \"description-title\" },\n        text,\n        React.createElement(Icon_1.default, { isRecruit: isRecruit })));\n};\nexports.default = Description;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Description/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Icon/index.scss":
+/*!**********************************************!*\
+  !*** ./src/component/atomic/Icon/index.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Icon/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/Icon/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Icon/index.tsx":
+/*!*********************************************!*\
+  !*** ./src/component/atomic/Icon/index.tsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/Icon/index.scss\");\nvar Icon = function (_a) {\n    var isRecruit = _a.isRecruit;\n    return (React.createElement(\"article\", { className: \"icon-box-container\", style: { backgroundColor: isRecruit ? \"#ff0000\" : \"#f89203\" } }));\n};\nexports.default = Icon;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Icon/index.tsx?");
+
+/***/ }),
+
 /***/ "./src/component/atomic/RecruitButton/index.scss":
 /*!*******************************************************!*\
   !*** ./src/component/atomic/RecruitButton/index.scss ***!
@@ -816,6 +895,41 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Re
 
 /***/ }),
 
+/***/ "./src/component/atomic/SubDescription/index.scss":
+/*!********************************************************!*\
+  !*** ./src/component/atomic/SubDescription/index.scss ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/SubDescription/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/SubDescription/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/SubDescription/index.tsx":
+/*!*******************************************************!*\
+  !*** ./src/component/atomic/SubDescription/index.tsx ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/SubDescription/index.scss\");\nvar SubDescription = function (_a) {\n    var generation = _a.generation, isRecruit = _a.isRecruit, url = _a.url, startDay = _a.startDay;\n    var text = isRecruit ? \"\\uD604\\uC7AC \" + generation + \"\\uAE30 \\uC2E0\\uC785\\uD68C\\uC6D0 \\uC11C\\uB958\\uC811\\uC218 \\uC911\" : \"\\uD604\\uC7AC \" + generation + \"\\uAE30 \\uD65C\\uB3D9 \\uC911!\";\n    return (React.createElement(\"article\", null,\n        React.createElement(\"span\", { className: \"subdescription-text\" }, text),\n        React.createElement(\"span\", { className: \"subdescription-link\" }, isRecruit ? React.createElement(\"a\", { href: url }, \" \\uC9C0\\uC6D0\\uD558\\uAE30>\") : React.createElement(\"span\", null,\n            \" \\uB2E4\\uC74C \\uAE30\\uC218\\uB294 \",\n            startDay,\n            \"\\uC5D0 \\uC608\\uC815\\uB418\\uC5B4 \\uC788\\uC2B5\\uB2C8\\uB2E4\"))));\n};\nexports.default = SubDescription;\n\n\n//# sourceURL=webpack:///./src/component/atomic/SubDescription/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/molecules/SubTitle/index.tsx":
+/*!****************************************************!*\
+  !*** ./src/component/molecules/SubTitle/index.tsx ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Description_1 = __webpack_require__(/*! ../../atomic/Description */ \"./src/component/atomic/Description/index.tsx\");\nvar SubDescription_1 = __webpack_require__(/*! ../../atomic/SubDescription */ \"./src/component/atomic/SubDescription/index.tsx\");\nvar SubTitle = function (_a) {\n    var generation = _a.generation, isRecruit = _a.isRecruit, url = _a.url, startDay = _a.startDay;\n    return (React.createElement(\"article\", null,\n        React.createElement(Description_1.default, { isRecruit: isRecruit, startDay: startDay }),\n        React.createElement(SubDescription_1.default, { isRecruit: isRecruit, generation: generation, url: url, startDay: startDay })));\n};\nexports.default = SubTitle;\n\n\n//# sourceURL=webpack:///./src/component/molecules/SubTitle/index.tsx?");
+
+/***/ }),
+
 /***/ "./src/component/template/RecuitTemplate/index.scss":
 /*!**********************************************************!*\
   !*** ./src/component/template/RecuitTemplate/index.scss ***!
@@ -835,7 +949,7 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Card_1 = __webpack_require__(/*! ../../atomic/Card */ \"./src/component/atomic/Card/index.tsx\");\nvar RecruitButton_1 = __webpack_require__(/*! ../../atomic/RecruitButton */ \"./src/component/atomic/RecruitButton/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/template/RecuitTemplate/index.scss\");\nvar RecruitTemplate = function (_a) {\n    var recruitData = _a.recruitData;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"header\", { className: \"header-section\" },\n            React.createElement(\"a\", { className: \"yapp-link\", href: \"http://yapp.co.kr/\" }, \"YAPP Homepage\")),\n        React.createElement(\"section\", null),\n        React.createElement(Card_1.default, null, \"helo world\"),\n        React.createElement(RecruitButton_1.default, { url: recruitData.url })));\n};\nexports.default = RecruitTemplate;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Card_1 = __webpack_require__(/*! ../../atomic/Card */ \"./src/component/atomic/Card/index.tsx\");\nvar RecruitButton_1 = __webpack_require__(/*! ../../atomic/RecruitButton */ \"./src/component/atomic/RecruitButton/index.tsx\");\nvar SubTitle_1 = __webpack_require__(/*! ../../molecules/SubTitle */ \"./src/component/molecules/SubTitle/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/template/RecuitTemplate/index.scss\");\nvar RecruitTemplate = function (_a) {\n    var recruitData = _a.recruitData;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"header\", { className: \"header-section\" },\n            React.createElement(\"a\", { className: \"yapp-link\", href: \"http://yapp.co.kr/\" }, \"YAPP Homepage\")),\n        React.createElement(\"section\", { className: \"body-section\" },\n            React.createElement(\"section\", { className: \"body-contents-container\" },\n                React.createElement(\"div\", { className: \"recruit-title-container\" },\n                    React.createElement(\"h1\", { className: \"recruit-title\" },\n                        React.createElement(\"span\", { className: \"title-R\" }, \"R\"),\n                        \"cruit\"),\n                    React.createElement(SubTitle_1.default, { isRecruit: recruitData.isRecruit, generation: recruitData.generation, url: recruitData.url, startDay: recruitData.startDay })),\n                React.createElement(Card_1.default, null, \"helo world\"),\n                React.createElement(RecruitButton_1.default, { url: recruitData.url })))));\n};\nexports.default = RecruitTemplate;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.tsx?");
 
 /***/ }),
 

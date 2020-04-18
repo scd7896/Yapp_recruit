@@ -9,3 +9,28 @@
     letter-spacing: -0.28px;
     color: #000000;
 }
+.body-section {
+    display: flex;
+    justify-content: center;
+}
+.body-contents-container {
+    width: 896px;
+}
+.recruit-title {
+    display: inline-block;
+    font-family: Avenir;
+    font-size: 82px;
+    font-weight: 900;
+    letter-spacing: -4.1px;
+    color: #000000;
+    margin-bottom: 24px;
+    border-bottom: 4px solid #000000;
+}
+.title-R {
+    color: #f89203;
+    border-bottom: 4px solid #f89203;
+}
+.recruit-title-container {
+    position: relative;
+    margin-bottom: 100px;
+}

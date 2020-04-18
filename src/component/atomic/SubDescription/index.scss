@@ -1,0 +1,19 @@
+.subdescription-text {
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    line-height: 1.93;
+    letter-spacing: -0.28px;
+    color: #000000;
+}
+
+.subdescription-link {
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.57;
+    letter-spacing: -0.35px;
+    color: #f87d03;
+    & a {
+        text-decoration: none;
+    }
+}
