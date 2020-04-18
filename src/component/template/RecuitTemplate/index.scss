@@ -14,7 +14,7 @@
     justify-content: center;
 }
 .body-contents-container {
-    width: 896px;
+    width: 860px;
 }
 .recruit-title {
     display: inline-block;
@@ -25,6 +25,7 @@
     letter-spacing: -4.1px;
     color: #000000;
     margin-bottom: 24px;
+    margin-top: 0px;
     border-bottom: 4px solid #000000;
 }
 .title-R {
@@ -35,5 +36,13 @@
 }
 .recruit-title-container {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+}
+.how-to-apply-text {
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.35;
+    letter-spacing: -0.5px;
+    color: #000000;
 }

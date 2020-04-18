@@ -313,6 +313,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardDescription/index.scss":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardDescription/index.scss ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card-description-text {\\n  font-family: AppleSDGothicNeo;\\n  font-size: 14px;\\n  line-height: 1.57;\\n  margin: 1px;\\n  letter-spacing: -0.35px;\\n  color: #333333; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardDescription/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardSubDescription/index.scss":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardSubDescription/index.scss ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card-subdescription-text {\\n  font-family: AppleSDGothicNeo;\\n  font-size: 11px;\\n  font-weight: normal;\\n  font-stretch: normal;\\n  font-style: normal;\\n  line-height: 2.2;\\n  letter-spacing: -0.25px;\\n  text-align: left;\\n  color: #999999; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardSubDescription/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardTitle/index.scss":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardTitle/index.scss ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card-title-contents {\\n  font-family: AppleSDGothicNeo;\\n  font-size: 14px;\\n  font-weight: 800;\\n  line-height: 1.21;\\n  letter-spacing: 0.3px;\\n  color: #000000; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardTitle/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/index.scss":
 /*!***************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/index.scss ***!
@@ -320,7 +353,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card-container {\\n  width: 237px;\\n  height: 205px;\\n  border-radius: 8px;\\n  box-shadow: 6px 6px 20px 0 rgba(217, 217, 217, 0.27);\\n  background-color: #ffffff; }\\n  @media (prefers-color-scheme: dark) {\\n    .card-container {\\n      background-color: #333333; } }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card-container {\\n  width: 213px;\\n  height: 181px;\\n  border-radius: 8px;\\n  box-shadow: 6px 6px 20px 0 rgba(217, 217, 217, 0.27);\\n  background-color: #ffffff;\\n  padding: 24px; }\\n  @media (prefers-color-scheme: dark) {\\n    .card-container {\\n      background-color: #333333; } }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -368,6 +401,17 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/organisms/RecruitCardContainer/index.scss":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/organisms/RecruitCardContainer/index.scss ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".recruit-card-container {\\n  display: flex;\\n  justify-content: space-between; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/organisms/RecruitCardContainer/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/template/RecuitTemplate/index.scss":
 /*!***************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/template/RecuitTemplate/index.scss ***!
@@ -375,18 +419,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".header-section {\\n  padding: 22px 23px; }\\n\\n.yapp-link {\\n  text-decoration: none;\\n  font-family: 'Avenir';\\n  font-size: 14px;\\n  line-height: 1.93;\\n  letter-spacing: -0.28px;\\n  color: #000000; }\\n\\n.body-section {\\n  display: flex;\\n  justify-content: center; }\\n\\n.body-contents-container {\\n  width: 896px; }\\n\\n.recruit-title {\\n  display: inline-block;\\n  height: 92px;\\n  font-family: Avenir;\\n  font-size: 82px;\\n  font-weight: 900;\\n  letter-spacing: -4.1px;\\n  color: #000000;\\n  margin-bottom: 24px;\\n  border-bottom: 4px solid #000000; }\\n\\n.title-R {\\n  color: #f89203;\\n  display: inline-block;\\n  height: 92px;\\n  border-bottom: 4px solid #f89203; }\\n\\n.recruit-title-container {\\n  position: relative;\\n  margin-bottom: 100px; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss":
-/*!*****************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss ***!
-  \*****************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@keyframes loading-bar {}.loading-wrapper {\\n  width: 100%;\\n  height: 100%;\\n  background-color: rgba(0, 0, 0, 0.4);\\n  position: fixed;\\n  top: 0;\\n  left: 0;\\n  display: flex;\\n  justify-content: center;\\n  overflow-y: scroll; }\\n\\n.loading-bar {\\n  margin-top: 20%;\\n  width: 400px;\\n  height: 40px;\\n  background-color: white;\\n  border-radius: 30px; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/admin/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".header-section {\\n  padding: 22px 23px; }\\n\\n.yapp-link {\\n  text-decoration: none;\\n  font-family: 'Avenir';\\n  font-size: 14px;\\n  line-height: 1.93;\\n  letter-spacing: -0.28px;\\n  color: #000000; }\\n\\n.body-section {\\n  display: flex;\\n  justify-content: center; }\\n\\n.body-contents-container {\\n  width: 860px; }\\n\\n.recruit-title {\\n  display: inline-block;\\n  height: 92px;\\n  font-family: Avenir;\\n  font-size: 82px;\\n  font-weight: 900;\\n  letter-spacing: -4.1px;\\n  color: #000000;\\n  margin-bottom: 24px;\\n  margin-top: 0px;\\n  border-bottom: 4px solid #000000; }\\n\\n.title-R {\\n  color: #f89203;\\n  display: inline-block;\\n  height: 92px;\\n  border-bottom: 4px solid #f89203; }\\n\\n.recruit-title-container {\\n  position: relative;\\n  margin-bottom: 60px; }\\n\\n.how-to-apply-text {\\n  font-family: Avenir;\\n  font-size: 20px;\\n  font-weight: 900;\\n  line-height: 1.35;\\n  letter-spacing: -0.5px;\\n  color: #000000; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -397,7 +430,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: #f8f8f8;\\n  min-height: 100vh; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: #f8f8f8;\\n  padding-bottom: 20px;\\n  min-height: 100vh; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -803,6 +836,75 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/component/atomic/Card/CardDescription/index.scss":
+/*!**************************************************************!*\
+  !*** ./src/component/atomic/Card/CardDescription/index.scss ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardDescription/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardDescription/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Card/CardDescription/index.tsx":
+/*!*************************************************************!*\
+  !*** ./src/component/atomic/Card/CardDescription/index.tsx ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/Card/CardDescription/index.scss\");\nvar CardDescription = function (_a) {\n    var children = _a.children;\n    return (React.createElement(\"p\", { className: \"card-description-text\" }, children));\n};\nexports.default = CardDescription;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardDescription/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Card/CardSubDescription/index.scss":
+/*!*****************************************************************!*\
+  !*** ./src/component/atomic/Card/CardSubDescription/index.scss ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardSubDescription/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardSubDescription/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Card/CardSubDescription/index.tsx":
+/*!****************************************************************!*\
+  !*** ./src/component/atomic/Card/CardSubDescription/index.tsx ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/Card/CardSubDescription/index.scss\");\nvar CardSubDescription = function (_a) {\n    var children = _a.children;\n    return (React.createElement(\"p\", { className: \"card-subdescription-text\" }, children));\n};\nexports.default = CardSubDescription;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardSubDescription/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Card/CardTitle/index.scss":
+/*!********************************************************!*\
+  !*** ./src/component/atomic/Card/CardTitle/index.scss ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/CardTitle/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardTitle/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/Card/CardTitle/index.tsx":
+/*!*******************************************************!*\
+  !*** ./src/component/atomic/Card/CardTitle/index.tsx ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/Card/CardTitle/index.scss\");\nvar CardTitle = function (_a) {\n    var children = _a.children;\n    return (React.createElement(\"p\", { className: \"card-title-contents\" }, children));\n};\nexports.default = CardTitle;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/CardTitle/index.tsx?");
+
+/***/ }),
+
 /***/ "./src/component/atomic/Card/index.scss":
 /*!**********************************************!*\
   !*** ./src/component/atomic/Card/index.scss ***!
@@ -918,6 +1020,30 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Re
 
 /***/ }),
 
+/***/ "./src/component/molecules/RecruitFalseCard/index.tsx":
+/*!************************************************************!*\
+  !*** ./src/component/molecules/RecruitFalseCard/index.tsx ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Card_1 = __webpack_require__(/*! ../../atomic/Card */ \"./src/component/atomic/Card/index.tsx\");\nvar CardTitle_1 = __webpack_require__(/*! ../../atomic/Card/CardTitle */ \"./src/component/atomic/Card/CardTitle/index.tsx\");\nvar CardDescription_1 = __webpack_require__(/*! ../../atomic/Card/CardDescription */ \"./src/component/atomic/Card/CardDescription/index.tsx\");\nvar RecruitFalseCard = function () {\n    return (React.createElement(Card_1.default, null,\n        React.createElement(CardTitle_1.default, null, \"\\uBAA8\\uC9D1\\uAE30\\uAC04\"),\n        React.createElement(CardDescription_1.default, null, \"YAPP\\uC5D0\\uC11C\\uB294 1\\uB144\\uC5D0 \\uB450\\uBC88\"),\n        React.createElement(CardDescription_1.default, null, \"(6-7\\uC6D4/1-2\\uC6D4) \"),\n        React.createElement(CardDescription_1.default, null, \"\\uC5F4\\uC815\\uC744 \\uAC00\\uC9C0\\uACE0 \\uD65C\\uB3D9\\uC5D0 \\uD568\\uAED8\\uD560\"),\n        React.createElement(CardDescription_1.default, null, \"YAPPian\\uC744 \\uBAA8\\uC9D1\\uD569\\uB2C8\\uB2E4\")));\n};\nexports.default = RecruitFalseCard;\n\n\n//# sourceURL=webpack:///./src/component/molecules/RecruitFalseCard/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/molecules/RecruitTrueCard/index.tsx":
+/*!***********************************************************!*\
+  !*** ./src/component/molecules/RecruitTrueCard/index.tsx ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar index_1 = __webpack_require__(/*! ../../atomic/Card/index */ \"./src/component/atomic/Card/index.tsx\");\nvar CardTitle_1 = __webpack_require__(/*! ../../atomic/Card/CardTitle */ \"./src/component/atomic/Card/CardTitle/index.tsx\");\nvar CardDescription_1 = __webpack_require__(/*! ../../atomic/Card/CardDescription */ \"./src/component/atomic/Card/CardDescription/index.tsx\");\nvar RecruitButton_1 = __webpack_require__(/*! ../../atomic/RecruitButton */ \"./src/component/atomic/RecruitButton/index.tsx\");\nvar RecruitTrueCard = function (_a) {\n    var url = _a.url, startDay = _a.startDay, lastDay = _a.lastDay;\n    return (React.createElement(index_1.default, null,\n        React.createElement(CardTitle_1.default, null, \"\\uBAA8\\uC9D1\\uAE30\\uAC04\"),\n        React.createElement(\"div\", { style: { marginBottom: '26px' } },\n            React.createElement(CardDescription_1.default, null,\n                startDay,\n                \" - \",\n                lastDay),\n            React.createElement(CardDescription_1.default, null, \"\\uC2E0\\uC785\\uAE30\\uC218\\uB97C \\uBAA8\\uC9D1\\uD569\\uB2C8\\uB2E4\")),\n        React.createElement(RecruitButton_1.default, { url: url })));\n};\nexports.default = RecruitTrueCard;\n\n\n//# sourceURL=webpack:///./src/component/molecules/RecruitTrueCard/index.tsx?");
+
+/***/ }),
+
 /***/ "./src/component/molecules/SubTitle/index.tsx":
 /*!****************************************************!*\
   !*** ./src/component/molecules/SubTitle/index.tsx ***!
@@ -927,6 +1053,29 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Re
 
 "use strict";
 eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Description_1 = __webpack_require__(/*! ../../atomic/Description */ \"./src/component/atomic/Description/index.tsx\");\nvar SubDescription_1 = __webpack_require__(/*! ../../atomic/SubDescription */ \"./src/component/atomic/SubDescription/index.tsx\");\nvar SubTitle = function (_a) {\n    var generation = _a.generation, isRecruit = _a.isRecruit, url = _a.url, startDay = _a.startDay;\n    return (React.createElement(\"article\", null,\n        React.createElement(Description_1.default, { isRecruit: isRecruit, startDay: startDay }),\n        React.createElement(SubDescription_1.default, { isRecruit: isRecruit, generation: generation, url: url, startDay: startDay })));\n};\nexports.default = SubTitle;\n\n\n//# sourceURL=webpack:///./src/component/molecules/SubTitle/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/organisms/RecruitCardContainer/index.scss":
+/*!*****************************************************************!*\
+  !*** ./src/component/organisms/RecruitCardContainer/index.scss ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/organisms/RecruitCardContainer/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/organisms/RecruitCardContainer/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/organisms/RecruitCardContainer/index.tsx":
+/*!****************************************************************!*\
+  !*** ./src/component/organisms/RecruitCardContainer/index.tsx ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Card_1 = __webpack_require__(/*! ../../atomic/Card */ \"./src/component/atomic/Card/index.tsx\");\nvar CardTitle_1 = __webpack_require__(/*! ../../atomic/Card/CardTitle */ \"./src/component/atomic/Card/CardTitle/index.tsx\");\nvar CardDescription_1 = __webpack_require__(/*! ../../atomic/Card/CardDescription */ \"./src/component/atomic/Card/CardDescription/index.tsx\");\nvar CardSubDescription_1 = __webpack_require__(/*! ../../atomic/Card/CardSubDescription */ \"./src/component/atomic/Card/CardSubDescription/index.tsx\");\nvar RecruitTrueCard_1 = __webpack_require__(/*! ../../molecules/RecruitTrueCard */ \"./src/component/molecules/RecruitTrueCard/index.tsx\");\nvar RecruitFalseCard_1 = __webpack_require__(/*! ../../molecules/RecruitFalseCard */ \"./src/component/molecules/RecruitFalseCard/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/organisms/RecruitCardContainer/index.scss\");\nvar RecruitCardContainer = function (_a) {\n    var startDay = _a.startDay, lastDay = _a.lastDay, url = _a.url, isRecruit = _a.isRecruit;\n    return (React.createElement(\"div\", { className: \"recruit-card-container\" },\n        isRecruit ? React.createElement(RecruitTrueCard_1.default, { url: url, startDay: startDay, lastDay: lastDay }) : React.createElement(RecruitFalseCard_1.default, null),\n        React.createElement(Card_1.default, null,\n            React.createElement(CardTitle_1.default, null, \"\\uC9C0\\uC6D0\\uC790\\uACA9\"),\n            React.createElement(CardDescription_1.default, null, \"6\\uAC1C\\uC6D4 \\uB3D9\\uC548 \\uD65C\\uB3D9\\uD558\\uB294\\uB370 \"),\n            React.createElement(CardDescription_1.default, null, \"\\uBB38\\uC81C\\uAC00 \\uC5C6\\uACE0,\"),\n            React.createElement(CardDescription_1.default, null, \"\\uC2E4\\uB825\\uC744 \\uD0A4\\uC6B0\\uAE30 \\uC704\\uD574 \\uBC30\\uC6B0\\uB824\\uB294\"),\n            React.createElement(CardDescription_1.default, null, \"\\uC758\\uC9C0\\uAC00 \\uC788\\uB294 \\uB204\\uAD6C\\uB098\"),\n            React.createElement(CardSubDescription_1.default, null, \"\\uB300\\uD559\\uC0DD\\uC774 \\uC544\\uB2CC \\uC878\\uC5C5\\uC0DD, \\uC9C1\\uC7A5\\uC778\\uB3C4 \\uAC00\\uB2A5\\uD569\\uB2C8\\uB2E4\")),\n        React.createElement(Card_1.default, null,\n            React.createElement(CardTitle_1.default, null, \"\\uC9C0\\uC6D0\\uBC29\\uBC95\"),\n            React.createElement(CardDescription_1.default, null, \"1\\uCC28 \\uC11C\\uB958 \"),\n            React.createElement(CardSubDescription_1.default, null, \"\\uBAA8\\uC9D1 \\uD398\\uC774\\uC9C0\\uC5D0\\uC11C \\uC9C0\\uC6D0\\uC11C \\uC791\\uC131 \\uBC0F \\uD3EC\\uD2B8\\uD3F4\\uB9AC\\uC624 \\uC81C\\uCD9C \"),\n            React.createElement(CardDescription_1.default, null, \"2\\uCC28 \\uBA74\\uC811 \\uD6C4 \\uCD5C\\uC885 \\uD569\\uACA9\"))));\n};\nexports.default = RecruitCardContainer;\n\n\n//# sourceURL=webpack:///./src/component/organisms/RecruitCardContainer/index.tsx?");
 
 /***/ }),
 
@@ -949,7 +1098,7 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Card_1 = __webpack_require__(/*! ../../atomic/Card */ \"./src/component/atomic/Card/index.tsx\");\nvar RecruitButton_1 = __webpack_require__(/*! ../../atomic/RecruitButton */ \"./src/component/atomic/RecruitButton/index.tsx\");\nvar SubTitle_1 = __webpack_require__(/*! ../../molecules/SubTitle */ \"./src/component/molecules/SubTitle/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/template/RecuitTemplate/index.scss\");\nvar RecruitTemplate = function (_a) {\n    var recruitData = _a.recruitData;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"header\", { className: \"header-section\" },\n            React.createElement(\"a\", { className: \"yapp-link\", href: \"http://yapp.co.kr/\" }, \"YAPP Homepage\")),\n        React.createElement(\"section\", { className: \"body-section\" },\n            React.createElement(\"section\", { className: \"body-contents-container\" },\n                React.createElement(\"div\", { className: \"recruit-title-container\" },\n                    React.createElement(\"h1\", { className: \"recruit-title\" },\n                        React.createElement(\"span\", { className: \"title-R\" }, \"R\"),\n                        \"cruit\"),\n                    React.createElement(SubTitle_1.default, { isRecruit: recruitData.isRecruit, generation: recruitData.generation, url: recruitData.url, startDay: recruitData.startDay })),\n                React.createElement(Card_1.default, null, \"helo world\"),\n                React.createElement(RecruitButton_1.default, { url: recruitData.url })))));\n};\nexports.default = RecruitTemplate;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar SubTitle_1 = __webpack_require__(/*! ../../molecules/SubTitle */ \"./src/component/molecules/SubTitle/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/template/RecuitTemplate/index.scss\");\nvar RecruitCardContainer_1 = __webpack_require__(/*! ../../organisms/RecruitCardContainer */ \"./src/component/organisms/RecruitCardContainer/index.tsx\");\nvar RecruitTemplate = function (_a) {\n    var recruitData = _a.recruitData;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"header\", { className: \"header-section\" },\n            React.createElement(\"a\", { className: \"yapp-link\", href: \"http://yapp.co.kr/\" }, \"YAPP Homepage\")),\n        React.createElement(\"section\", { className: \"body-section\" },\n            React.createElement(\"section\", { className: \"body-contents-container\" },\n                React.createElement(\"div\", { className: \"recruit-title-container\" },\n                    React.createElement(\"h1\", { className: \"recruit-title\" },\n                        React.createElement(\"span\", { className: \"title-R\" }, \"R\"),\n                        \"cruit\"),\n                    React.createElement(SubTitle_1.default, { isRecruit: recruitData.isRecruit, generation: recruitData.generation, url: recruitData.url, startDay: recruitData.startDay })),\n                React.createElement(\"div\", { className: \"recruit-card-container\" },\n                    React.createElement(\"p\", { className: \"how-to-apply-text\" }, \"How to apply\")),\n                React.createElement(RecruitCardContainer_1.default, { isRecruit: recruitData.isRecruit, url: recruitData.url, startDay: recruitData.startDay, lastDay: recruitData.lastDay })))));\n};\nexports.default = RecruitTemplate;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.tsx?");
 
 /***/ }),
 
@@ -997,30 +1146,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar fi
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar firebase_1 = __webpack_require__(/*! ../model/firebase */ \"./src/model/firebase.ts\");\nvar index_1 = __webpack_require__(/*! ./index */ \"./src/pages/index/index.tsx\");\nvar admin_1 = __webpack_require__(/*! ./admin */ \"./src/pages/admin/index.tsx\");\nvar App = function () {\n    firebase_1.fire();\n    return (React.createElement(react_router_dom_1.BrowserRouter, null,\n        React.createElement(react_router_dom_1.Route, { exact: true, path: \"/recruit\", component: index_1.default }),\n        React.createElement(react_router_dom_1.Route, { path: \"/recruit/admin\", component: admin_1.default })));\n};\nexports.default = App;\n\n\n//# sourceURL=webpack:///./src/pages/App.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/admin/index.scss":
-/*!************************************!*\
-  !*** ./src/pages/admin/index.scss ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/pages/admin/index.scss?");
-
-/***/ }),
-
-/***/ "./src/pages/admin/index.tsx":
-/*!***********************************!*\
-  !*** ./src/pages/admin/index.tsx ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/pages/admin/index.scss\");\nvar Admin = function (props) {\n    var _a = react_1.useState(true), loading = _a[0], setLoading = _a[1];\n    console.log('페이지컴포넌트', props);\n    react_1.useEffect(function () {\n        setTimeout(function () {\n            setLoading(false);\n        }, 2000);\n    }, []);\n    return (React.createElement(\"div\", null));\n};\nexports.default = Admin;\n\n\n//# sourceURL=webpack:///./src/pages/admin/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar firebase_1 = __webpack_require__(/*! ../model/firebase */ \"./src/model/firebase.ts\");\nvar index_1 = __webpack_require__(/*! ./index */ \"./src/pages/index/index.tsx\");\nvar App = function () {\n    firebase_1.fire();\n    return (React.createElement(react_router_dom_1.BrowserRouter, null,\n        React.createElement(react_router_dom_1.Route, { exact: true, path: \"/recruit\", component: index_1.default })));\n};\nexports.default = App;\n\n\n//# sourceURL=webpack:///./src/pages/App.tsx?");
 
 /***/ }),
 
@@ -1043,7 +1169,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar RecuitTemplate_1 = __webpack_require__(/*! ../../component/template/RecuitTemplate */ \"./src/component/template/RecuitTemplate/index.tsx\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    var _a = react_1.useState({\n        startDay: \"09월 17일\",\n        generation: 16,\n        isRecruit: true,\n        lastDay: \"lastday\",\n        notionURL: \"www.naver.com\",\n        url: \"www.naver.com\"\n    }), recruitData = _a[0], setRecruitData = _a[1];\n    // useEffect(()=>{\n    //     getFireDB()\n    //         .then((res)=>{\n    //             console.log(res.val()['recruit-data'])\n    //             setRecruitData(res.val()['recruit-data'])\n    //         })\n    // },[])\n    return (React.createElement(\"div\", { className: \"index-container\" },\n        React.createElement(RecuitTemplate_1.default, { recruitData: recruitData })));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar RecuitTemplate_1 = __webpack_require__(/*! ../../component/template/RecuitTemplate */ \"./src/component/template/RecuitTemplate/index.tsx\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    var _a = react_1.useState({\n        startDay: \"09월 17일\",\n        generation: 16,\n        isRecruit: false,\n        lastDay: \"10월 02일\",\n        notionURL: \"www.naver.com\",\n        url: \"www.naver.com\"\n    }), recruitData = _a[0], setRecruitData = _a[1];\n    // useEffect(()=>{\n    //     getFireDB()\n    //         .then((res)=>{\n    //             console.log(res.val()['recruit-data'])\n    //             setRecruitData(res.val()['recruit-data'])\n    //         })\n    // },[])\n    return (React.createElement(\"div\", { className: \"index-container\" },\n        React.createElement(RecuitTemplate_1.default, { recruitData: recruitData })));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
 
 /***/ })
 

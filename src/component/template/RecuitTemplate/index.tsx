@@ -1,9 +1,7 @@
 import * as React from 'react'
-import Card from '../../atomic/Card'
-import RecruitButton from '../../atomic/RecruitButton'
-import Icon from '../../atomic/Icon'
 import SubTitle from '../../molecules/SubTitle'
 import './index.scss'
+import RecruitCardContainer from '../../organisms/RecruitCardContainer'
 interface RecruitTemplateProps {
     recruitData: recruitDataTypes
 }
@@ -24,12 +22,13 @@ const RecruitTemplate = ({ recruitData }: RecruitTemplateProps) => {
                             startDay={recruitData.startDay} />
                         
                     </div>
-                    <Card> 
-                        helo world
-                    </Card>
-                    <RecruitButton url={recruitData.url} />
-                    
-                    
+                    <div className="recruit-card-container">
+                        <p className="how-to-apply-text">How to apply</p>
+                    </div>
+                    <RecruitCardContainer isRecruit={recruitData.isRecruit}
+                        url={recruitData.url}
+                        startDay={recruitData.startDay}
+                        lastDay={recruitData.lastDay} />
                 </section>
             </section>
         </div>
