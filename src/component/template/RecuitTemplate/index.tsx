@@ -15,7 +15,7 @@ const RecruitTemplate = ({ recruitData }: RecruitTemplateProps) => {
             <section className="body-section">
                 <section className="body-contents-container">
                     <div className="recruit-title-container">
-                        <h1 className="recruit-title"><span className="title-R">R</span>cruit</h1>
+                        <h1 className="recruit-title"><span className="title-R">R</span>ecruit</h1>
                         <SubTitle isRecruit={recruitData.isRecruit}
                             generation={recruitData.generation}
                             url={recruitData.url}

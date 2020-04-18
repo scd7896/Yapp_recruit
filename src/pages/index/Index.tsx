@@ -9,7 +9,7 @@ const Index = () => {
     const [recruitData, setRecruitData] = useState<recruitDataTypes>({
         startDay: "09월 17일",
         generation: 16,
-        isRecruit: false,
+        isRecruit: true,
         lastDay: "10월 02일",
         notionURL: "www.naver.com",
         url: "www.naver.com"
