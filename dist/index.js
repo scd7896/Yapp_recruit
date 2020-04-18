@@ -313,6 +313,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/index.scss":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/index.scss ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".card-container {\\n  width: 237px;\\n  height: 205px;\\n  border-radius: 8px;\\n  box-shadow: 6px 6px 20px 0 rgba(217, 217, 217, 0.27);\\n  background-color: #ffffff; }\\n  @media (prefers-color-scheme: dark) {\\n    .card-container {\\n      background-color: #333333; } }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/RecruitButton/index.scss":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/RecruitButton/index.scss ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".recruit-button {\\n  width: 94px;\\n  height: 36px;\\n  border-radius: 20px;\\n  border: none;\\n  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16);\\n  text-decoration: none;\\n  cursor: pointer;\\n  background-color: #000000;\\n  color: #ffffff; }\\n\\n.recruit-button:hover {\\n  background-color: #f89203; }\\n\\n.recruit-button:active {\\n  background-color: #e28400; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/atomic/RecruitButton/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/template/RecuitTemplate/index.scss":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/template/RecuitTemplate/index.scss ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".header-section {\\n  padding: 22px 23px; }\\n\\n.yapp-link {\\n  text-decoration: none;\\n  font-family: 'Avenir';\\n  font-size: 14px;\\n  line-height: 1.93;\\n  letter-spacing: -0.28px;\\n  color: #000000; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss":
 /*!*****************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/admin/index.scss ***!
@@ -331,7 +364,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: #dddddd;\\n  min-height: 100vh;\\n  display: flex;\\n  justify-content: center; }\\n  @media (prefers-color-scheme: dark) {\\n    .index-container {\\n      background-color: black; } }\\n\\n.contents-container {\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  min-height: 100vh; }\\n  @media (min-width: 1280px) {\\n    .contents-container {\\n      width: 1190px; } }\\n  @media (max-width: 1279px) and (min-width: 800px) {\\n    .contents-container {\\n      width: 790px; } }\\n  @media (max-width: 799px) {\\n    .contents-container {\\n      width: 90%; } }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: #f8f8f8;\\n  min-height: 100vh; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -737,27 +770,72 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./src/component/atomic/HeaderButton/index.tsx":
-/*!*****************************************************!*\
-  !*** ./src/component/atomic/HeaderButton/index.tsx ***!
-  \*****************************************************/
+/***/ "./src/component/atomic/Card/index.scss":
+/*!**********************************************!*\
+  !*** ./src/component/atomic/Card/index.scss ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar HeaderButton = function (_a) {\n    var generation = _a.generation;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"span\", null,\n            \"\\uD604\\uC7AC \",\n            generation,\n            \"\\uAE30 \\uBAA8\\uC9D1 \\uC911\")));\n};\nexports.default = HeaderButton;\n\n\n//# sourceURL=webpack:///./src/component/atomic/HeaderButton/index.tsx?");
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/Card/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/Card/index.scss?");
 
 /***/ }),
 
-/***/ "./src/component/atomic/Test/index.tsx":
+/***/ "./src/component/atomic/Card/index.tsx":
 /*!*********************************************!*\
-  !*** ./src/component/atomic/Test/index.tsx ***!
+  !*** ./src/component/atomic/Card/index.tsx ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Test = function (props) {\n    console.log('아토믹 컴포넌트', props);\n    return (React.createElement(\"div\", null, \"Test \\uCEF4\\uD3EC\\uB10C\\uD2B8\\uC784 \\uD55C\\uBC88\\uBCF4\\uC148\"));\n};\n// export default withRouter(Test)\nexports.default = Test;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Test/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/Card/index.scss\");\nvar Card = function (_a) {\n    var children = _a.children;\n    return (React.createElement(\"div\", { className: \"card-container\" }, children));\n};\nexports.default = Card;\n\n\n//# sourceURL=webpack:///./src/component/atomic/Card/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/RecruitButton/index.scss":
+/*!*******************************************************!*\
+  !*** ./src/component/atomic/RecruitButton/index.scss ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/atomic/RecruitButton/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/atomic/RecruitButton/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/atomic/RecruitButton/index.tsx":
+/*!******************************************************!*\
+  !*** ./src/component/atomic/RecruitButton/index.tsx ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/atomic/RecruitButton/index.scss\");\nvar RecruitButton = function (_a) {\n    var url = _a.url;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"a\", { href: url },\n            React.createElement(\"button\", { className: \"recruit-button\" }, \"\\uC9C0\\uC6D0\\uD558\\uAE30\"))));\n};\nexports.default = RecruitButton;\n\n\n//# sourceURL=webpack:///./src/component/atomic/RecruitButton/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/component/template/RecuitTemplate/index.scss":
+/*!**********************************************************!*\
+  !*** ./src/component/template/RecuitTemplate/index.scss ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!./index.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/component/template/RecuitTemplate/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.scss?");
+
+/***/ }),
+
+/***/ "./src/component/template/RecuitTemplate/index.tsx":
+/*!*********************************************************!*\
+  !*** ./src/component/template/RecuitTemplate/index.tsx ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Card_1 = __webpack_require__(/*! ../../atomic/Card */ \"./src/component/atomic/Card/index.tsx\");\nvar RecruitButton_1 = __webpack_require__(/*! ../../atomic/RecruitButton */ \"./src/component/atomic/RecruitButton/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/component/template/RecuitTemplate/index.scss\");\nvar RecruitTemplate = function (_a) {\n    var recruitData = _a.recruitData;\n    return (React.createElement(\"div\", null,\n        React.createElement(\"header\", { className: \"header-section\" },\n            React.createElement(\"a\", { className: \"yapp-link\", href: \"http://yapp.co.kr/\" }, \"YAPP Homepage\")),\n        React.createElement(\"section\", null),\n        React.createElement(Card_1.default, null, \"helo world\"),\n        React.createElement(RecruitButton_1.default, { url: recruitData.url })));\n};\nexports.default = RecruitTemplate;\n\n\n//# sourceURL=webpack:///./src/component/template/RecuitTemplate/index.tsx?");
 
 /***/ }),
 
@@ -828,7 +906,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar Test_1 = __webpack_require__(/*! ../../component/atomic/Test */ \"./src/component/atomic/Test/index.tsx\");\n__webpack_require__(/*! ./index.scss */ \"./src/pages/admin/index.scss\");\nvar Admin = function (props) {\n    var _a = react_1.useState(true), loading = _a[0], setLoading = _a[1];\n    console.log('페이지컴포넌트', props);\n    react_1.useEffect(function () {\n        setTimeout(function () {\n            setLoading(false);\n        }, 2000);\n    }, []);\n    return (React.createElement(\"div\", null, !loading ? (React.createElement(Test_1.default, null)) : (React.createElement(\"div\", { className: \"loading-wrapper\" },\n        React.createElement(\"div\", { className: \"loading-bar\" })))));\n};\nexports.default = Admin;\n\n\n//# sourceURL=webpack:///./src/pages/admin/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./index.scss */ \"./src/pages/admin/index.scss\");\nvar Admin = function (props) {\n    var _a = react_1.useState(true), loading = _a[0], setLoading = _a[1];\n    console.log('페이지컴포넌트', props);\n    react_1.useEffect(function () {\n        setTimeout(function () {\n            setLoading(false);\n        }, 2000);\n    }, []);\n    return (React.createElement(\"div\", null));\n};\nexports.default = Admin;\n\n\n//# sourceURL=webpack:///./src/pages/admin/index.tsx?");
 
 /***/ }),
 
@@ -851,7 +929,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar HeaderButton_1 = __webpack_require__(/*! ../../component/atomic/HeaderButton */ \"./src/component/atomic/HeaderButton/index.tsx\");\nvar firebase_1 = __webpack_require__(/*! ../../model/firebase */ \"./src/model/firebase.ts\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    var _a = react_1.useState(''), recruitData = _a[0], setRecruitData = _a[1];\n    react_1.useEffect(function () {\n        firebase_1.getFireDB()\n            .then(function (res) {\n            setRecruitData(res.val()['recruit-data']);\n        });\n    }, []);\n    return (React.createElement(\"div\", { className: \"index-container\" },\n        React.createElement(\"div\", { className: \"contents-container\" },\n            React.createElement(\"h1\", null, \"Recruit\"),\n            React.createElement(\"div\", null, recruitData && React.createElement(\"span\", null,\n                recruitData,\n                \"\\uC77C\\uBD80\\uD130 \\uC2E0\\uC785\\uAE30\\uC218\\uB97C \\uBAA8\\uC9D1\\uD569\\uB2C8\\uB2E4\")),\n            React.createElement(\"div\", null,\n                React.createElement(HeaderButton_1.default, { generation: 17 })))));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar RecuitTemplate_1 = __webpack_require__(/*! ../../component/template/RecuitTemplate */ \"./src/component/template/RecuitTemplate/index.tsx\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    var _a = react_1.useState({\n        startDay: \"test\",\n        generation: 16,\n        isRecruit: false,\n        lastDay: \"lastday\",\n        notionURL: \"www.naver.com\",\n        url: \"www.naver.com\"\n    }), recruitData = _a[0], setRecruitData = _a[1];\n    // useEffect(()=>{\n    //     getFireDB()\n    //         .then((res)=>{\n    //             console.log(res.val()['recruit-data'])\n    //             setRecruitData(res.val()['recruit-data'])\n    //         })\n    // },[])\n    return (React.createElement(\"div\", { className: \"index-container\" },\n        React.createElement(RecuitTemplate_1.default, { recruitData: recruitData })));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
 
 /***/ })
 

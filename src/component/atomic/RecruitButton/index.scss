@@ -1,0 +1,19 @@
+.recruit-button {
+    width: 94px;
+    height: 36px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+
+.recruit-button:hover {
+    background-color: #f89203;
+}
+.recruit-button:active {
+    background-color: #e28400;
+}

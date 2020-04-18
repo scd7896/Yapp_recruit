@@ -1,28 +1,4 @@
-
 .index-container {
-    background-color: #dddddd;
+    background-color: #f8f8f8;
     min-height: 100vh;
-    @media (prefers-color-scheme: dark) {
-        background-color: black;
-    }
-    display: flex;
-    justify-content: center;
-}
-
-.contents-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    min-height: 100vh;
-    
-    
-    @media (min-width: 800px) {
-        // 노트북
-        width: 790px;
-    }
-    @media (max-width: 799px) {
-        //타블렛 && 모바일
-        width: 90%;
-    }
 }

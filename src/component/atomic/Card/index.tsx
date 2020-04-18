@@ -1,10 +1,10 @@
 import * as React from 'react';
 import './index.scss';
 
-const Card = () => {
+const Card = ({ children }) => {
     return (
         <div className="card-container">
-            this is Card
+            { children }
         </div>
     )
 }
