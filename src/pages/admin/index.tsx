@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import Test from '../../component/atomic/Test'
+
 import './index.scss';
 const Admin = (props) => {
     const [loading, setLoading] = useState(true) 
@@ -12,15 +12,7 @@ const Admin = (props) => {
     },[])
     return(
         <div>
-            {
-                !loading ? (
-                    <Test />
-                ) : (
-                    <div className="loading-wrapper">
-                        <div className="loading-bar"></div>
-                    </div>
-                )
-            }
+            
         </div>
     )
 }
