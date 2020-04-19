@@ -430,7 +430,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".index-container {\\n  background-color: #f8f8f8;\\n  padding-bottom: 20px;\\n  min-height: 100vh; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: \\\"Apple SD Gothic Neo\\\";\\n  src: url(\\\"http://db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff2\\\") format(\\\"woff2\\\"); }\\n\\n.index-container {\\n  background-color: #f8f8f8;\\n  padding-bottom: 20px;\\n  min-height: 100vh; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/pages/index/Index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -1110,7 +1110,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Re
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar ReactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nvar App_1 = __webpack_require__(/*! ./pages/App */ \"./src/pages/App.tsx\");\nReactDom.render(React.createElement(App_1.default, null), document.querySelector('#root'));\n\n\n//# sourceURL=webpack:///./src/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar ReactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nvar App_1 = __webpack_require__(/*! ./pages/App */ \"./src/pages/App.tsx\");\n__webpack_require__(/*! ./polyfil/index.js */ \"./src/polyfil/index.js\");\nReactDom.render(React.createElement(App_1.default, null), document.querySelector('#root'));\n\n\n//# sourceURL=webpack:///./src/index.tsx?");
 
 /***/ }),
 
@@ -1169,7 +1169,18 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar RecuitTemplate_1 = __webpack_require__(/*! ../../component/template/RecuitTemplate */ \"./src/component/template/RecuitTemplate/index.tsx\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    var _a = react_1.useState({\n        startDay: \"09월 17일\",\n        generation: 16,\n        isRecruit: true,\n        lastDay: \"10월 02일\",\n        notionURL: \"www.naver.com\",\n        url: \"www.naver.com\"\n    }), recruitData = _a[0], setRecruitData = _a[1];\n    // useEffect(()=>{\n    //     getFireDB()\n    //         .then((res)=>{\n    //             console.log(res.val()['recruit-data'])\n    //             setRecruitData(res.val()['recruit-data'])\n    //         })\n    // },[])\n    return (React.createElement(\"div\", { className: \"index-container\" },\n        React.createElement(RecuitTemplate_1.default, { recruitData: recruitData })));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nvar firebase_1 = __webpack_require__(/*! ../../model/firebase */ \"./src/model/firebase.ts\");\nvar RecuitTemplate_1 = __webpack_require__(/*! ../../component/template/RecuitTemplate */ \"./src/component/template/RecuitTemplate/index.tsx\");\n__webpack_require__(/*! ./Index.scss */ \"./src/pages/index/Index.scss\");\nvar Index = function () {\n    var _a = react_1.useState(), recruitData = _a[0], setRecruitData = _a[1];\n    react_1.useEffect(function () {\n        firebase_1.getFireDB()\n            .then(function (res) {\n            setRecruitData(res.val()['recruit-data']);\n        });\n    }, []);\n    return (React.createElement(\"div\", { className: \"index-container\" }, recruitData && React.createElement(RecuitTemplate_1.default, { recruitData: recruitData })));\n};\nexports.default = Index;\n\n\n//# sourceURL=webpack:///./src/pages/index/index.tsx?");
+
+/***/ }),
+
+/***/ "./src/polyfil/index.js":
+/*!******************************!*\
+  !*** ./src/polyfil/index.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("if (typeof Object.assign != 'function') {\n    // Must be writable: true, enumerable: false, configurable: true\n    Object.defineProperty(Object, \"assign\", {\n      value: function assign(target, varArgs) { // .length of function is 2\n        'use strict';\n        if (target == null) { // TypeError if undefined or null\n          throw new TypeError('Cannot convert undefined or null to object');\n        }\n  \n        var to = Object(target);\n  \n        for (var index = 1; index < arguments.length; index++) {\n          var nextSource = arguments[index];\n  \n          if (nextSource != null) { // Skip over if undefined or null\n            for (var nextKey in nextSource) {\n              // Avoid bugs when hasOwnProperty is shadowed\n              if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {\n                to[nextKey] = nextSource[nextKey];\n              }\n            }\n          }\n        }\n        return to;\n      },\n      writable: true,\n      configurable: true\n    });\n  }\n\n//# sourceURL=webpack:///./src/polyfil/index.js?");
 
 /***/ })
 
