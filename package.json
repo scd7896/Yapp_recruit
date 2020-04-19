@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server --open --inline --hot",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "prod": "webpack --mode=production"
   },
   "author": "yapp16_operation",
   "license": "MIT",
