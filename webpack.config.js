@@ -25,7 +25,17 @@ module.exports = {
                         loader: "sass-loader"
                     }     
                 ]
-            }
+            },{
+                test: /\.woff2$/,
+                use: {
+                  loader: 'url-loader', // url 로더를 설정한다
+                  options: {
+                    publicPath: './dist/', // file-loader와 동일
+                    name: '[name].[ext]?[hash]', // file-loader와 동일
+                    limit: 7 * 1000 * 100
+                  }
+                }
+              }
         ]
     },
     output: {
