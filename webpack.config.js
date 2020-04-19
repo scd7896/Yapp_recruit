@@ -1,7 +1,7 @@
 module.exports = {
     mode: 'development',
     entry: {
-        index: './src/index.tsx'
+        index: ['@babel/polyfill', './polyfill/index.js','./src/index.tsx']
     },
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".css", ".scss"]
