@@ -5,9 +5,9 @@
     box-shadow: 6px 6px 20px 0 rgba(217, 217, 217, 0.27);
     background-color: #ffffff;
     padding: 22px 24px;
-    @media (prefers-color-scheme: dark) {
-        background-color: #333333;
-    }
+    // @media (prefers-color-scheme: dark) {
+    //     background-color: #333333;
+    // }
 }
 .card-container:hover {
     box-shadow: 13px 13px 10px 0 rgba(217, 217, 217, 0.47);
