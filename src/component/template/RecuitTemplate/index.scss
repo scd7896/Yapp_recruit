@@ -1,5 +1,6 @@
 .header-section {
-    padding: 22px 23px;
+    padding-top: 45px;
+    margin-bottom: 80px;
 }
 .yapp-link {
     text-decoration: none;
@@ -27,6 +28,10 @@
     margin-bottom: 24px;
     margin-top: 0px;
     border-bottom: 4px solid #000000;
+    @media (prefers-color-scheme: dark) {
+        border-bottom: 4px solid #ffffff;
+        color: #ffffff;
+    }
 }
 .title-R {
     color: #f89203;
