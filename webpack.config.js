@@ -26,7 +26,7 @@ module.exports = {
                     }     
                 ]
             },{
-                test: /\.woff2$/,
+                test: /\.(woff2$|otf)/,
                 use: {
                   loader: 'url-loader', // url 로더를 설정한다
                   options: {
