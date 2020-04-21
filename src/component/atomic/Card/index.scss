@@ -7,8 +7,12 @@
     padding: 22px 24px;
     @media (prefers-color-scheme: dark) {
         background-color: #191818;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.51);
     }
 }
 .card-container:hover {
     box-shadow: 13px 13px 10px 0 rgba(217, 217, 217, 0.47);
+    @media (prefers-color-scheme: dark) {
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.51);
+    }
 }
