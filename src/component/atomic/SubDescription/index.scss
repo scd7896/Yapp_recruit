@@ -4,6 +4,9 @@
     line-height: 1.93;
     letter-spacing: -0.28px;
     color: #000000;
+    @media (prefers-color-scheme: dark) {
+        color: #ffffff;
+    }
 }
 
 .subdescription-link {

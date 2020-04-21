@@ -8,7 +8,10 @@
     cursor: pointer;
     background-color: #000000;
     color: #ffffff;
-    
+    font-family: 'Spoqa Han Sans';
+    @media(prefers-color-scheme: dark) {
+        background-color: #f89203;
+    }
 }
 
 .recruit-button:hover {

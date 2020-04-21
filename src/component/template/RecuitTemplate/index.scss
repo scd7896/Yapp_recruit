@@ -9,6 +9,9 @@
     line-height: 1.93;
     letter-spacing: -0.28px;
     color: #000000;
+    @media (prefers-color-scheme: dark) {
+        color: #ffffff;
+    }
 }
 .body-section {
     display: flex;
@@ -20,7 +23,7 @@
 .recruit-title {
     display: inline-block;
     height: 92px;
-    font-family: 'Proxima Nova Bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 82px;
     font-weight: 800;
     letter-spacing: -4.1px;
@@ -44,10 +47,13 @@
     margin-bottom: 60px;
 }
 .how-to-apply-text {
-    font-family: 'Proxima Nova Bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 900;
     line-height: 1.35;
     letter-spacing: -0.5px;
     color: #000000;
+    @media (prefers-color-scheme: dark) {
+        color: #ffffff;
+    }
 }
