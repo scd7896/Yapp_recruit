@@ -7,7 +7,8 @@ interface IconProps {
 
 const Icon = ({ isRecruit }: IconProps) => {
     return (
-        <article className="icon-box-container" style={{backgroundColor: isRecruit? "#ff0000" : "#f89203"}}>
+        <article className={`icon-box-container ${isRecruit ? "recruit":"non-recruit"}`} 
+            style={{backgroundColor: isRecruit? "#ff0000" : "#f89203"}} >
             {
                 isRecruit? <span className="icon-N-text">N</span> : <span style={{fontSize:'18px'}}>⏳</span>
             }

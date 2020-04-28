@@ -16,6 +16,12 @@
     @media (max-width: 500px) {
         top: 100px;
     }
+    &.non-recruit {
+        @media (max-width: 500px) {
+            top: 70px;
+            left: 47%;
+        }
+    }
 }
 .icon-N-text {
     font-family: 'Montserrat', sans-serif;
