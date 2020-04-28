@@ -23,9 +23,9 @@ const RecruitTemplate = ({ recruitData }: RecruitTemplateProps) => {
                             startDay={recruitData.startDay} />
                         
                     </div>
-                    <div className="recruit-card-container">
-                        <p className="how-to-apply-text">How to apply</p>
-                    </div>
+                    
+                    <p className="how-to-apply-text">How to apply</p>
+                    
                     <RecruitCardContainer isRecruit={recruitData.isRecruit}
                         url={recruitData.url}
                         startDay={recruitData.startDay}
