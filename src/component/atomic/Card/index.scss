@@ -9,6 +9,10 @@
         background-color: #191818;
         box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.51);
     }
+    @media (max-width: 860px) {
+        width: 80%;
+        margin-bottom: 16px;
+    }
 }
 .card-container:hover {
     box-shadow: 13px 13px 10px 0 rgba(217, 217, 217, 0.47);

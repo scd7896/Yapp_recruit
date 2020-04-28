@@ -19,6 +19,9 @@
 }
 .body-contents-container {
     width: 840px;
+    @media (max-width: 860px) {
+        width: 100%;
+    }
 }
 .recruit-title {
     display: inline-block;
