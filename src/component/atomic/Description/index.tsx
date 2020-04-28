@@ -8,7 +8,13 @@ interface DescriptionProps {
 }
 
 const Description = ({ isRecruit, startDay }: DescriptionProps) => {
-    const text = isRecruit? `${startDay}부터 신입기수를 모집합니다` : "지금은 모집기간이 아닙니다"; 
+    const text = isRecruit? (
+        <p>
+            <span>{startDay}부터</span> 
+            <span>신입기수를</span> 
+            <span>모집합니다</span>
+        </p> ) : 
+        <p><span>지금은 모집기간이</span><span>아닙니다</span></p>; 
     return (
         <article className="description-title">
             {text}

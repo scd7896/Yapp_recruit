@@ -1,6 +1,10 @@
 .header-section {
     padding-top: 45px;
     margin-bottom: 80px;
+    @media (max-width: 860px) {
+        padding-top: 30px;
+        padding-left: 6.7%;
+    }
 }
 .yapp-link {
     text-decoration: none;
@@ -38,16 +42,34 @@
         border-bottom: 4px solid #ffffff;
         color: #ffffff;
     }
+    
+    @media (max-width: 500px) {
+        font-size: 62px;
+        height: 68px;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 0px;
+    }
+
+    @media (max-width: 500px) and (prefers-color-scheme: dark) {
+        border-bottom: 2px solid #ffffff;
+    }
 }
 .title-R {
     color: #f89203;
     display: inline-block;
     height: 92px;
     border-bottom: 4px solid #f89203;
+    @media (max-width: 500px) {
+        height: 68px;
+        border-bottom: 2px solid #f89203;
+    }
 }
 .recruit-title-container {
     position: relative;
     margin-bottom: 60px;
+    @media (max-width: 860px) {
+        padding-left: 6.7%;
+    }
 }
 .how-to-apply-text {
     font-family: 'Montserrat', sans-serif;
