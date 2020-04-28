@@ -1,8 +1,8 @@
 import * as React from 'react'
 import './index.scss';
-const CardDescription = ({ children }) => {
+const CardDescription = ({ children, className="" }) => {
     return(
-        <p className="card-description-text">{ children }</p>
+        <p className={`card-description-text ${className}`} >{ children }</p>
     )
 }
 
