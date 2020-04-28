@@ -1,3 +1,104 @@
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    20% {
+        -webkit-transform: rotate(0deg);
+    }
+    40% {
+        -webkit-transform: rotate(180deg);
+    }
+    60% {
+        -webkit-transform: rotate(180deg);
+    }
+    80% {
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    20% {
+        -webkit-transform: rotate(0deg);
+    }
+    40% {
+        -webkit-transform: rotate(180deg);
+    }
+    60% {
+        -webkit-transform: rotate(180deg);
+    }
+    80% {
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(180deg);
+    }
+    60% {
+        transform: rotate(180deg);
+    }
+    80% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-ms-keyframes spin {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+    20% {
+        -ms-transform: rotate(0deg);
+    }
+    40% {
+        -ms-transform: rotate(180deg);
+    }
+    60% {
+        -ms-transform: rotate(180deg);
+    }
+    80% {
+        -ms-transform: rotate(360deg);
+    }
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+@-o-keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(180deg);
+    }
+    60% {
+        transform: rotate(180deg);
+    }
+    80% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 .icon-box-container {
     display: flex;
     justify-content: center;
@@ -17,6 +118,11 @@
         top: 120px;
     }
     &.non-recruit {
+        -webkit-animation: spin 10s infinite;
+        -o-animation: spin 10s infinite;
+        -ms-animation: spin 10s infinite;
+        -moz-animation: spin 10s infinite;
+        animation: spin 10s infinite;
         @media (max-width: 500px) {
             top: 70px;
             left: 47%;
