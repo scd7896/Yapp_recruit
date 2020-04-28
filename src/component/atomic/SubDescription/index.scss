@@ -7,6 +7,12 @@
     @media (prefers-color-scheme: dark) {
         color: #ffffff;
     }
+
+    &.non-recruit {
+        @media (max-width: 500px) {
+            display: block;
+        }
+    }
 }
 
 .subdescription-link {
